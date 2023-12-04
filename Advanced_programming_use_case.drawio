@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T16:40:26.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cq5wYitR57e-67jqYc5M" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T17:00:24.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qJIpDFgCqnfGdnLS6h-3" version="22.1.5" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="120" y="40" width="1510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="100" width="280" height="520" as="geometry" />
+          <mxGeometry x="760" y="100" width="350" height="520" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-2" value="TemperatureMicroservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
           <mxGeometry x="60" width="160" height="30" as="geometry" />
@@ -103,6 +103,50 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-54" value="Class diagram" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="690" width="1510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-59" value="Sensor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="800" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-60" value="+ Id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-59">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-61" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-59">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-62" value="+ getCurrentTemperature(): DataEntry" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-59">
+          <mxGeometry y="60" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-63" value="DbContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="485" y="1050" width="100" height="30" as="geometry">
+            <mxRectangle x="430" y="940" width="190" height="34" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-65" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-63">
+          <mxGeometry y="26" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-67" target="F5rfD89c2Z7wBtHzjooi-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-67" value="SensorDb" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1110" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-68" value="+ Sensors: DbSet&amp;lt;Sensor&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-67">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-69" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-67">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-73" value="DataEntry" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="800" width="190" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-74" value="+ Id: int&lt;br&gt;+ Temperature: int&lt;br&gt;+ SensorId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-73">
+          <mxGeometry y="26" width="190" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-73">
+          <mxGeometry y="80" width="190" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

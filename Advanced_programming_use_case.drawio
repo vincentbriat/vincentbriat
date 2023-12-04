@@ -1,26 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T04:27:58.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Taux3BE0bFavb4a3Rk15" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T16:26:45.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4aXFeYDDmrghZSK17sIo" version="22.1.5" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1672d66443f91eb5-23" target="F5rfD89c2Z7wBtHzjooi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1672d66443f91eb5-23" value="Use case diagram IoT Microservice for Temperature" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="120" y="40" width="1510" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="100" width="280" height="400" as="geometry" />
+          <mxGeometry x="760" y="100" width="280" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="F5rfD89c2Z7wBtHzjooi-2" value="Microservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
-          <mxGeometry x="95" width="90" height="30" as="geometry" />
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-2" value="TemperatureMicroservice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
+          <mxGeometry x="60" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-4" value="Authenticates&lt;br&gt;sensor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
           <mxGeometry x="20" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="F5rfD89c2Z7wBtHzjooi-6" value="Collects temperature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-6" value="Read temperature data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
           <mxGeometry x="20" y="150" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="F5rfD89c2Z7wBtHzjooi-11" value="Sends temperature" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-11" value="Add Sensor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
           <mxGeometry x="150" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-16" value="Delete Sensor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
+          <mxGeometry x="150" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-17" value="Update Sensor" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
+          <mxGeometry x="150" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-18" value="Get Sensor info" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
+          <mxGeometry x="150" y="60" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-3" target="F5rfD89c2Z7wBtHzjooi-4">
           <mxGeometry relative="1" as="geometry">
@@ -30,13 +42,42 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F5rfD89c2Z7wBtHzjooi-3" value="Microservice" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-3" value="APi Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="260" />
+              <mxPoint x="1080" y="290" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="F5rfD89c2Z7wBtHzjooi-7" value="Sensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="260" />
+              <mxPoint x="1080" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="260" />
+              <mxPoint x="1080" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="260" />
+              <mxPoint x="1080" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-7" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1120" y="230" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-3" target="F5rfD89c2Z7wBtHzjooi-6">

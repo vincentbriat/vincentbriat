@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-04T16:38:19.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="EI681TEiQ806K3rMPWDs" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-04T16:40:26.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cq5wYitR57e-67jqYc5M" version="22.1.5" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="150" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-26" value="Get temperature data&lt;br&gt;of all sensors" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
-          <mxGeometry x="20" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="20" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-51" value="Sends current temperature to Microservice" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
           <mxGeometry x="20" y="340" width="120" height="80" as="geometry" />
@@ -41,6 +41,15 @@
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-53" value="Sensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="F5rfD89c2Z7wBtHzjooi-1">
           <mxGeometry x="-130" y="350" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F5rfD89c2Z7wBtHzjooi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F5rfD89c2Z7wBtHzjooi-1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="200" />
+              <mxPoint x="320" y="130" />
+              <mxPoint x="80" y="130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-3" value="API Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="630" y="260" width="30" height="60" as="geometry" />
@@ -80,15 +89,6 @@
         <mxCell id="F5rfD89c2Z7wBtHzjooi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="260" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1080" y="300" />
-              <mxPoint x="1080" y="230" />
-              <mxPoint x="840" y="230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="F5rfD89c2Z7wBtHzjooi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5rfD89c2Z7wBtHzjooi-7" target="F5rfD89c2Z7wBtHzjooi-26">
-          <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="300" />
               <mxPoint x="1080" y="230" />

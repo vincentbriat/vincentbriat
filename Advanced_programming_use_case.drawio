@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T06:06:08.041Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="SLPzyP3vRmfXe6jSGl8r" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T12:34:16.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Ha8USNG00dCJzfDxRUrS" version="22.1.7" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-73" value="DataEntry" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="489" width="200" height="160" as="geometry" />
+          <mxGeometry x="1110" y="489" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="F5rfD89c2Z7wBtHzjooi-74" value="+ Id: int&lt;br&gt;+ Temperature: int&lt;br&gt;+ SensorId: int&lt;br&gt;+ SensorDescription: String&lt;br&gt;+ Date: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="F5rfD89c2Z7wBtHzjooi-73" vertex="1">
           <mxGeometry y="26" width="200" height="84" as="geometry" />
@@ -196,7 +196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WyYDB_pf5qGWQ0EKhPNQ-8" value="TemperatureRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="360" width="280" height="50" as="geometry" />
+          <mxGeometry x="710" y="360" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="WyYDB_pf5qGWQ0EKhPNQ-9" value="- _context: TemperatureDbContext &amp;lt;readonly&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="WyYDB_pf5qGWQ0EKhPNQ-8">
           <mxGeometry y="26" width="280" height="24" as="geometry" />
@@ -215,6 +215,11 @@
               <mxPoint x="1490" y="410" />
               <mxPoint x="1590" y="410" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyYDB_pf5qGWQ0EKhPNQ-33" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WyYDB_pf5qGWQ0EKhPNQ-28">
+          <mxGeometry x="-0.8577" y="-3" relative="1" as="geometry">
+            <mxPoint x="7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WyYDB_pf5qGWQ0EKhPNQ-18" value="APIKeyAuthAttribute" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
